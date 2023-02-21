@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: ({ theme }) => ({
-        brand: '#887098',
+        brand: "#887098",
       }),
-      fontFamily: ({ theme }) =>({
+      fontFamily: ({ theme }) => ({
         primary: "Roboto, sans-serif",
         secondary: "Poppins, sans-serif",
       }),
     },
   },
   plugins: [],
-}
+};
