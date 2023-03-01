@@ -1,10 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import About from '../components/About';
+
+import Layout from '../components/global/Layout';
 
 const index = () => {
   return (
     <div>
-      <Navbar />
+      <Layout isHome>
+        <About />
+      </Layout>
     </div>
   );
 };
