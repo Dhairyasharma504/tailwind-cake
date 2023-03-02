@@ -1,10 +1,28 @@
 import React from 'react';
 
-function Description({ description }) {
+function Description({
+  description,
+  TextBrand,
+  TextLarge,
+  TextUpper,
+  UnderLine,
+}) {
   return (
-    <div>
-      <p className=" text-lightShade font-light  text-lg">{description}</p>
-    </div>
+    <p
+      className={`  font-light  underline-offset-8  ${
+        TextBrand ? ' text-brand' : ' text-lightShade'
+      }
+
+      ${TextLarge ? ' text-2xl' : ' text-lg'}
+
+
+      ${TextUpper ? '  uppercase  ' : '  lowercase '}
+
+      ${UnderLine ? ' underline ' : '  no-underline'}
+      `}
+    >
+      {description}
+    </p>
   );
 }
 

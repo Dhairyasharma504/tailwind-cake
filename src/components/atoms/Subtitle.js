@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Subtitle({ TextWhite, subtitle }) {
+function Subtitle({ TextWhite, subtitle, TextSmall }) {
   return (
     <div>
       <h3
-        className={` ${
-          TextWhite ? ' text-lightShade ' : ' text-brand'
-        }font-normal text-4xl text-brand  font-primary`}
+        className={` ${TextWhite ? ' text-lightShade ' : ' text-brand'}
+        ${TextSmall ? ' text-3xl' : 'text-4xl'}
+        font-normal  text-brand  font-primary`}
       >
         {subtitle}
       </h3>
