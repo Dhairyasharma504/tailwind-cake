@@ -8,7 +8,7 @@ function BlogCard() {
       <div className=" grid md:grid-cols-2 grid-cols-1 group ">
         <div className="relative">
           <img
-            src="https://i.ibb.co/HxkBZQM/img-1.png"
+            src="/images/fruit cake/pexels-photo-3913295.jpeg"
             alt="stairs"
             className=" h-full"
           />

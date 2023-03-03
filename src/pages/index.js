@@ -12,12 +12,10 @@ const index = () => {
   return (
     <div>
       <Layout isHome>
-        <About />
-        <Price />
+        <About /> <Products />
         <Rating />
-        <Products />
         <Blog />
-
+        <Price />
         <InstagramGallery />
       </Layout>
     </div>

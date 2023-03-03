@@ -6,37 +6,37 @@ import Heading from './elements/Heading';
 const reviewHero = [
   {
     id: 1,
-    name: 'samual',
+    name: 'chocolate',
     label: 'cake',
-    image: '/images/about1.jpg.webp',
+    image: '/images/choclate cake/pexels-meryem-adak-11647298.jpg',
     category: 'fruitCake',
     type: 'veg',
   },
   {
     id: 2,
-    name: 'samual',
+    name: 'valvet',
     label: 'cake',
-    image: '/images/about1.jpg.webp',
+    image: '/images/valvet cake/pexels-photo-6211054.jpeg',
     category: 'fruitCake',
     type: 'nonVeg',
   },
   {
     id: 3,
-    name: 'samual',
+    name: 'fruit-cake',
     label: 'cake',
-    image: '/images/about1.jpg.webp',
+    image: '/images/fruit cake/pexels-photo-3913295.jpeg',
   },
   {
     id: 4,
-    name: 'samual',
+    name: 'valvet-cake',
     label: 'cake',
-    image: '/images/about1.jpg.webp',
+    image: '/images/valvet cake/pexels-photo-140831.webp',
   },
   {
     id: 5,
-    name: 'samual',
+    name: 'fruit-cake',
     label: 'cake',
-    image: '/images/about1.jpg.webp',
+    image: '/images/fruit cake/pexels-photo-7525189.webp',
   },
 ];
 function Price() {
