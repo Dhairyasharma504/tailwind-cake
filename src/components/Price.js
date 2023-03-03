@@ -2,6 +2,7 @@ import React from 'react';
 import PriceCard from './elements/PriceCard';
 import SliderComponent from './elements/Slider_Hero';
 import Heading from './elements/Heading';
+import CategoryTabs from './product/CategoryTabs';
 
 const reviewHero = [
   {
@@ -9,12 +10,16 @@ const reviewHero = [
     name: 'samual',
     label: 'cake',
     image: '/images/about1.jpg.webp',
+    category: 'fruitCake',
+    type: 'veg',
   },
   {
     id: 2,
     name: 'samual',
     label: 'cake',
     image: '/images/about1.jpg.webp',
+    category: 'fruitCake',
+    type: 'nonVeg',
   },
   {
     id: 3,
@@ -41,7 +46,7 @@ function Price() {
       <div className=" flex justify-center text-center  ">
         <Heading heading="most popular cake " />
       </div>
-
+      {/* <CategoryTabs /> */}
       <SliderComponent
         // eslint-disable-next-line react/no-unstable-nested-components
         rowItem={(item) => <PriceCard key={item.id} item={item} />}

@@ -5,7 +5,7 @@ import Heading from './elements/Heading';
 
 function Blog() {
   return (
-    <div className=" container mx-auto ">
+    <div className=" container mx-auto mb-16">
       <div className="flex justify-between items-center px-10">
         <Heading heading="Food Lover's Say " />
         <PrimaryButton label="more blog" />

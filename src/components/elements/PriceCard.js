@@ -5,22 +5,24 @@ function PriceCard({ item }) {
   return (
     <div>
       <a href="#" className="group relative block m-6 overflow-hidden">
-        <Image
-          src={item.image}
-          alt={item.title}
-          width={500}
-          height={500}
-          className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-        />
+        {item.image && (
+          <Image
+            src={item.image}
+            alt={item.title || ''}
+            width={500}
+            height={500}
+            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+          />
+        )}
 
         <div className="relative ">
           <div className="p-8">
             <p className="text-sm font-medium uppercase tracking-widest text-brand">
-              {item.label}
+              {item.label || ''}
             </p>
 
             <p className="text-xl font-bold text-white sm:text-2xl">
-              {item.name}
+              {item.name || ''}
             </p>
           </div>
 

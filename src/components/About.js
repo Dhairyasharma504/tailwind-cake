@@ -6,7 +6,7 @@ import Heading from './elements/Heading';
 
 function About() {
   return (
-    <div className=" container mx-auto px-4  ">
+    <div className=" container mx-auto px-4 mb-11 ">
       <div className=" flex justify-center text-center  ">
         <Heading heading="This is Schilers. Awesome Food Theme. Purchase it and eat Burgers. " />
       </div>

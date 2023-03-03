@@ -9,7 +9,7 @@ function Description({
 }) {
   return (
     <p
-      className={`  font-light  underline-offset-8  ${
+      className={` font-secondary  font-light  underline-offset-8  ${
         TextBrand ? ' text-brand' : ' text-lightShade'
       }
 
