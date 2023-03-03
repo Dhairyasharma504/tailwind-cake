@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 function SliderComponent(props) {
-  const { heading, slidesToShow, data, rowItem } = props;
+  const { slidesToShow, data, rowItem } = props;
 
   const settings = {
     dots: false,

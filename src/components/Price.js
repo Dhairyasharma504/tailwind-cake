@@ -2,7 +2,6 @@ import React from 'react';
 import PriceCard from './elements/PriceCard';
 import SliderComponent from './elements/Slider_Hero';
 import Heading from './elements/Heading';
-import CategoryTabs from './product/CategoryTabs';
 
 const reviewHero = [
   {
