@@ -25,8 +25,8 @@ const cardData = [
 
 function Rating() {
   return (
-    <div className="container mx-auto px-4 py-10">
-      <div className=" flex justify-center text-center  ">
+    <div className="container mx-auto px-4 py-10 pb-20 ">
+      <div className=" flex justify-center text-center mb-10">
         <Heading heading="Food Lover's Say " />
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1">
