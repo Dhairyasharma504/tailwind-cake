@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <div className="  p-4">
       <div className="flex justify-between items-center">
-        <div className="">
+        <div className=" flex-1">
           <div className="flex space-x-3">
             <FaFacebook className=" w-6 h-6 text-lightShade" />
             <FaInstagram className=" w-6 h-6 text-lightShade" />
@@ -32,17 +32,18 @@ function Navbar() {
             />
           </div>
         </div>
-        <div>
+        <div className="flex-1 ">
           <Link href="/">
             <Image
-              src="/images/logo.png.webp"
+              className=" mx-auto"
+              src="/images/Cake and Bakery Logo 3.png"
               alt="logo"
               height={100}
               width={200}
             />
           </Link>
         </div>{' '}
-        <div className="">
+        <div className=" flex-1 text-right">
           <PrimaryButton
             TextBrand
             TextHover

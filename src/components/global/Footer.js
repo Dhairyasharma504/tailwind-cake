@@ -11,7 +11,7 @@ function Footer() {
           <div className=" ">
             <Description description="Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 
-            <div className="flex space-x-10 my-10">
+            <div className="md:flex space-x-10 my-10 space-y-4">
               <PrimaryButton
                 backgroundTransparent
                 TextBrand
