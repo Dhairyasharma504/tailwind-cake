@@ -12,7 +12,8 @@ const index = () => {
   return (
     <div>
       <Layout isHome>
-        <About /> <Products />
+        <About />
+        <Products />
         <Rating />
         <Blog />
         <Price />

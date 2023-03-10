@@ -1,14 +1,14 @@
 import React from 'react';
-import About from '../components/About';
+import Blog from '../components/Blog';
 import Layout from '../components/global/Layout';
 
-const about = () => {
+const blog = () => {
   return (
     <Layout heroBgImage="/images/bghero1.jpg">
-      <About />
+      <Blog />
       <div />
     </Layout>
   );
 };
 
-export default about;
+export default blog;
