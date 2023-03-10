@@ -13,7 +13,10 @@ function Footer() {
       <footer className="    ">
         <div className="grid md:grid-cols-3 grid-cols-1  ">
           <div className=" flex-1 px-10 ">
-            <Description description="Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+            <Description
+              TextLarge
+              description="Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            />
 
             <div className="md:flex space-y-10 my-10 md:space-y-0 space-x-2 text-center">
               <PrimaryButton

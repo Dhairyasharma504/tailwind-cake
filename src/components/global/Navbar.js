@@ -18,8 +18,8 @@ const navbarMenu = [
 function Navbar() {
   const [active, setActive] = useState(false);
   return (
-    <div className="  md:p-4 p-0  my-6 ">
-      <div className="flex justify-between items-center">
+    <div className="  md:p-4 p-0  my-6 fixed -top-8 z-50 bg-black w-full  ">
+      <div className="flex justify-between items-center  p-3 ">
         <div className=" flex-1">
           <div className="flex space-x-3">
             <FaFacebook className=" w-6 h-6 text-lightShade hover:text-brand" />
