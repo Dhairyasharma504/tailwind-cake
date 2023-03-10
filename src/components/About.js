@@ -11,7 +11,7 @@ function About() {
         <Heading heading="This is Schilers. Awesome Food Theme. Purchase it and eat Burgers. " />
       </div>
       <div className="grid  md:grid-cols-2 grid-cols-1  px-8 gap-3 py-8">
-        <div className=" flex flex-col justify-center  space-y-5 ">
+        <div className=" flex flex-col justify-center  px-3 space-y-5 ">
           <div className=" py-5  max-w-xl">
             <Subtitle
               subtitle="This is Schilers. Awesome Food Theme.
