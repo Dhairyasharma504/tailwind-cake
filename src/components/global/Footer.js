@@ -9,13 +9,13 @@ import Subtitle from '../atoms/Subtitle';
 function Footer() {
   return (
     <div>
-      <div className=" border-t border-brand  max-w-screen-lg mx-auto  mt-24" />
-      <footer className="  container mx-auto px-4 ">
-        <div className="grid md:grid-cols-3 grid-cols-1 py-8 ">
-          <div className=" ">
+      <div className=" border-t  border-gray-500 my-12 max-w-screen-lg mx-auto  mt-24" />
+      <footer className="    ">
+        <div className="grid md:grid-cols-3 grid-cols-1  ">
+          <div className=" flex-1 px-10 ">
             <Description description="Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 
-            <div className="md:flex space-x-10 my-10 md:space-y-0 space-x-4">
+            <div className="md:flex space-y-10 my-10 md:space-y-0 space-x-2 text-center">
               <PrimaryButton
                 backgroundTransparent
                 TextBrand
@@ -26,18 +26,18 @@ function Footer() {
                 backgroundTransparent
                 TextBrand
                 TextHover
-                label="facebook"
+                label="Instagram"
               />{' '}
               <PrimaryButton
                 backgroundTransparent
                 TextBrand
                 TextHover
-                label="facebook"
+                label="twitter"
               />
             </div>
           </div>
-          <div className=" text-center ">
-            <div>
+          <div className=" text-center flex-1 ">
+            <div className="w-1/2 mx-auto">
               <TbLocation className="text-white mx-auto my-4 w-10 h-10 " />
               <div className=" py-4">
                 <Subtitle subtitle="location" />
@@ -48,8 +48,8 @@ function Footer() {
               />
             </div>
           </div>
-          <div className=" text-center">
-            <div>
+          <div className=" text-center flex-1">
+            <div className="w-1/2 mx-auto">
               <BsTelephone className="text-white mx-auto my-4 w-10 h-10 " />
               <div className="py-4">
                 {' '}

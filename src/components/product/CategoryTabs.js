@@ -16,7 +16,7 @@ function CategoryTabs({
   console.log('categoriesList', categoriesList);
 
   return (
-    <div className="container mx-auto px-4 md:flex justify-between text-lightShade">
+    <div className="container mx-auto  px-4  md:flex justify-between text-lightShade">
       <nav className="flex border-b border-gray-100 text-sm font-medium">
         <button
           type="button"

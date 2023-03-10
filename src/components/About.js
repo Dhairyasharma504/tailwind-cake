@@ -6,11 +6,12 @@ import Heading from './elements/Heading';
 
 function About() {
   return (
-    <div className=" container mx-auto px-4 mb-11 ">
-      <div className=" flex justify-center text-center  ">
+    <div className=" container mx-auto px-3 mb-11 ">
+      <div className=" flex justify-center text-center  pt-10 ">
         <Heading heading="This is Schilers. Awesome Food Theme. Purchase it and eat Burgers. " />
       </div>
-      <div className="grid  md:grid-cols-2 grid-cols-1  px-8 gap-3 py-8">
+      <div className=" border-b border-brand w-32 mx-auto  pb-6" />
+      <div className="grid  md:grid-cols-2 grid-cols-1  gap-3 py-8">
         <div className=" flex flex-col justify-center  px-3 space-y-5 ">
           <div className=" py-5  max-w-xl">
             <Subtitle

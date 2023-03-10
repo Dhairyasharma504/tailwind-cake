@@ -3,7 +3,7 @@ import Title from '../atoms/Title';
 
 function Heading({ heading }) {
   return (
-    <div className="max-w-2xl py-8 ">
+    <div className="max-w-2xl  ">
       <Title TextSmall title={heading} />
     </div>
   );

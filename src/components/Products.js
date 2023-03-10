@@ -126,7 +126,7 @@ function Products() {
   }, [type, selectedCategory]);
 
   return (
-    <div>
+    <div className="container mx-auto">
       <CategoryTabs
         categories={categories}
         selectedCategory={selectedCategory}

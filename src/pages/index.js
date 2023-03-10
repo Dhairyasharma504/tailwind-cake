@@ -17,7 +17,6 @@ const index = () => {
         <Rating />
         <Blog />
         <Price />
-        <InstagramGallery />
       </Layout>
     </div>
   );
