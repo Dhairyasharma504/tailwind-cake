@@ -29,7 +29,7 @@ function PriceCard({ item }) {
           <div className="mt-32 sm:mt-48 lg:mt-64">
             <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100 duration-300">
               <p className="text-xl font-semibold font-secondary text-center text-lightShade bg-brand/80 p-6">
-                Add to card
+                Add to cart
               </p>
             </div>
           </div>

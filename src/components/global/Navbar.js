@@ -18,7 +18,7 @@ const navbarMenu = [
 function Navbar() {
   const [active, setActive] = useState(false);
   return (
-    <div className="  p-4">
+    <div className="  md:p-4 p-0  my-6 ">
       <div className="flex justify-between items-center">
         <div className=" flex-1">
           <div className="flex space-x-3">
@@ -52,7 +52,7 @@ function Navbar() {
           />
         </div>
       </div>
-      <div className=" z-20 p-4">
+      <div className=" z-20">
         <div className="container mx-auto">
           <nav className="">
             <div className="flex items-center justify-around">
@@ -80,7 +80,7 @@ function Navbar() {
               </div>
               <div className="flex font-poppins items-center justify-end sm:items-stretch sm:justify-center">
                 <div className="hidden sm:block">
-                  <div className="flex space-x-8">
+                  <div className="flex space-x-10 pt-6">
                     {navbarMenu.map((item) => (
                       <Link href={item.navLink} key={item.id}>
                         <span
@@ -97,11 +97,11 @@ function Navbar() {
             </div>
           </nav>
           {active && (
-            <div className="sm:hidden flex flex-col space-y-4 text-center h-full   bg-darkShade/20 py-6">
+            <div className="sm:hidden flex flex-col space-y-4 text-center h-full   bg-brand/80 py-6">
               {navbarMenu.map((item) => (
                 <Link href={item.navLink} key={item.id}>
                   <span
-                    className="text-white px-5 py-2 rounded-md text-base font-medium hover:text-primaryDark transition duration-1000 ease-in-out"
+                    className="relative font-medium text-lightShade before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-brand before:transition hover:before:scale-100"
                     aria-current="page"
                   >
                     {item.navItem}
