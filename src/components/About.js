@@ -1,18 +1,24 @@
 import React from 'react';
 import Image from 'next/image';
+import styled from 'styled-components';
+import { HiCake } from 'react-icons/hi';
 import Description from './atoms/Description';
 import Subtitle from './atoms/Subtitle';
 import Heading from './elements/Heading';
 
 function About() {
   return (
-    <div className=" container mx-auto px-3 mb-11 ">
-      <div className=" flex justify-center text-center  pt-10 ">
+    <div className=" container mx-auto  mb-11 ">
+      <div className="  flex justify-center text-center  ">
         <Heading heading="This is Schilers. Awesome Food Theme. Purchase it and eat Burgers. " />
+        <div className="animate-bounce   text-white  flex items-center ">
+          <HiCake className="h-20 w-20  " />
+        </div>
+        ;
       </div>
       <div className=" border-b border-brand w-32 mx-auto  pb-6" />
       <div className="grid  md:grid-cols-2 grid-cols-1  gap-3 py-8">
-        <div className=" flex flex-col justify-center  px-3 space-y-5 ">
+        <div className=" flex flex-col justify-center  px-8 space-y-5 ">
           <div className=" py-5  max-w-xl">
             <Subtitle
               subtitle="This is Schilers. Awesome Food Theme.

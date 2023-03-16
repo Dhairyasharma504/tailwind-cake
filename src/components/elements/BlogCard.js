@@ -16,7 +16,7 @@ function BlogCard() {
             <p className="text-base leading-4 py-3 px-5 text-gray-800 ">News</p>
           </div>
         </div>
-        <div className="p-6 py-10 space-y-8 border border-gray-500 last:border-x-0">
+        <div className="p-6 py-18 space-y-8 border border-gray-500 last:border-x-0">
           <Subtitle subtitle="Tomato, black olive, feta & anchovy tart ulla mco laboris" />
           <Description description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip." />
           <div className="transition  ease-in-out delay-150  group-hover:translate-x-4  duration-700">
