@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styled from 'styled-components';
+
 import { HiCake } from 'react-icons/hi';
 import Description from './atoms/Description';
 import Subtitle from './atoms/Subtitle';
