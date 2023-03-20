@@ -13,7 +13,7 @@ function About() {
       <div className="  flex justify-center text-center  ">
         <Heading heading="This is Schilers. Awesome Food Theme. Purchase it and eat Burgers. " />
         <div className="animate-bounce   text-white  flex items-center ">
-          <HiCake className="h-20 w-20  " />
+          <HiCake className="md:h-20 h-10 md:w-20 w-10  " />
         </div>
         ;
       </div>
