@@ -16,7 +16,6 @@ function SliderItem({ item }) {
       <div className="bg-black/20 md:h-[80vh] h-[100vh]">
         <div className="  p-6  h-full flex flex-col justify-center items-start  w-full text-lightShade ">
           <div className=" md:w-1/2 ">
-            {' '}
             <Title title="healthy made delicious cake" />
             <div className="mt-4">
               <PrimaryButton label="order now" />
