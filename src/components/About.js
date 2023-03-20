@@ -3,9 +3,12 @@ import Image from 'next/image';
 
 import { HiCake } from 'react-icons/hi';
 
+import AOS from 'aos';
 import Description from './atoms/Description';
 import Subtitle from './atoms/Subtitle';
 import Heading from './elements/Heading';
+
+AOS.init();
 
 function About() {
   return (
@@ -19,7 +22,11 @@ function About() {
       </div>
       <div className=" border-b border-brand w-32 mx-auto  pb-6" />
       <div className="grid  md:grid-cols-2 grid-cols-1  gap-3 py-8">
-        <div className=" flex flex-col justify-center  md:px-8 px-4 space-y-5 ">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className=" flex flex-col justify-center  md:px-8 px-4 space-y-5 "
+        >
           <div className=" py-5  max-w-xl">
             <Subtitle
               subtitle="This is Schilers. Awesome Food Theme.

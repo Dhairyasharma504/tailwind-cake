@@ -17,8 +17,23 @@ const navbarMenu = [
 
 function Navbar() {
   const [active, setActive] = useState(false);
+
+  const [fix, setFix] = useState(false);
+
+  function setFixed() {
+    if (window.scrollY >= 350) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  }
+  window.addEventListener('scroll', setFixed);
   return (
-    <div className="  md:p-4 p-0  md:fixed top-0 z-50 bg-black w-full  ">
+    <div
+      className={` ${
+        fix ? 'fixed  bg-darkShade' : 'bg-black'
+      }  md:p-4 p-0  md: top-0 z-50  w-full duration-800 delay-100  `}
+    >
       <div className="flex justify-between items-center  ">
         <div className=" flex-1">
           <div className="flex space-x-3">
