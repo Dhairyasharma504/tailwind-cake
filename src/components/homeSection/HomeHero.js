@@ -18,7 +18,7 @@ function SliderItem({ item }) {
           <div className=" md:w-1/2 ">
             <Title title="healthy made delicious cake" />
             <div className="mt-4">
-              <PrimaryButton label="order now" />
+              <PrimaryButton label="view now" />
             </div>
           </div>
         </div>

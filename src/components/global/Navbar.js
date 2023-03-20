@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { HiCake } from 'react-icons/hi';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 import { GiHamburgerMenu } from 'react-icons/gi';
@@ -21,7 +22,7 @@ function Navbar() {
   const [fix, setFix] = useState(false);
 
   function setFixed() {
-    if (window.scrollY >= 350) {
+    if (window.scrollY >= 340) {
       setFix(true);
     } else {
       setFix(false);
@@ -31,12 +32,12 @@ function Navbar() {
   return (
     <div
       className={` ${
-        fix ? 'fixed  bg-darkShade' : 'bg-black'
-      }  md:p-4 p-0  md: top-0 z-50  w-full duration-800 delay-100  `}
+        fix ? 'fixed  bg-darkShade shadow-xl' : 'bg-black'
+      }  md:p-4 p-0  md: top-0 z-50  w-full duration-800  `}
     >
       <div className="flex justify-between items-center  ">
-        <div className=" flex-1">
-          <div className="flex space-x-3">
+        <div className=" flex-1 p-5 ">
+          <div className="flex space-x-3 items-center absolute top-7 left-2">
             <FaFacebook className=" w-6 h-6 text-lightShade hover:text-brand" />
             <FaInstagram className=" w-6 h-6 text-lightShade hover:text-brand" />
             <FaTwitter
@@ -47,7 +48,10 @@ function Navbar() {
             />
           </div>
         </div>
-        <div className="flex-1 ">
+        <div className="flex ">
+          <div className="animate-bounce   text-white  flex items-center  ">
+            <HiCake className="md:h-10 h-8 md:w-10 w-8  " />
+          </div>
           <Link href="/">
             <Image
               className=" mx-auto"

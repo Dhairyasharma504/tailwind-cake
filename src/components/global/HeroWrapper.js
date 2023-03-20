@@ -2,7 +2,7 @@ import React from 'react';
 
 function HeroWrapper({ bgImage, isSmall, children }) {
   return (
-    <div className="md:py-36 py-10">
+    <div className="md:py-16 py-10">
       <div
         style={{
           backgroundImage: `url(${bgImage || '/images/bg hero1.jpg'})`,

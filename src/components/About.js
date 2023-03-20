@@ -13,7 +13,11 @@ AOS.init();
 function About() {
   return (
     <div className=" container mx-auto  mb-11 ">
-      <div className="  flex justify-center text-center  ">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="500"
+        className="  flex justify-center text-center  "
+      >
         <Heading heading="This is Schilers. Awesome Food Theme. Purchase it and eat Burgers. " />
         <div className="animate-bounce   text-white  flex items-center ">
           <HiCake className="md:h-20 h-10 md:w-20 w-10  " />
@@ -24,7 +28,7 @@ function About() {
       <div className="grid  md:grid-cols-2 grid-cols-1  gap-3 py-8">
         <div
           data-aos="fade-right"
-          data-aos-duration="1000"
+          data-aos-duration="500"
           className=" flex flex-col justify-center  md:px-8 px-4 space-y-5 "
         >
           <div className=" py-5  max-w-xl">

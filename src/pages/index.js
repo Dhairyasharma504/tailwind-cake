@@ -5,7 +5,7 @@ import Price from '../components/Price';
 import Products from '../components/Products';
 import Rating from '../components/Rating';
 
-const Layout1 = dynamic(() => import('../components/global/Layout'), {
+const Layout = dynamic(() => import('../components/global/Layout'), {
   ssr: false,
 });
 
@@ -15,13 +15,13 @@ const About = dynamic(() => import('../components/About'), {
 const index = () => {
   return (
     <div>
-      <Layout1 isHome>
+      <Layout isHome>
         <About />
         <Products />
         <Rating />
         <Blog />
         <Price />
-      </Layout1>
+      </Layout>
     </div>
   );
 };

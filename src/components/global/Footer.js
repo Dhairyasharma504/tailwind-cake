@@ -71,7 +71,7 @@ function Footer() {
           </div>
         </div>{' '}
         <div className="py-6 flex flex-col justify-center items-center ">
-          <Description description=" 2021 Tailwind UI Kit. All Rights Reserved." />
+          <Description description=" Zeiq.co  All Rights Reserved." />
         </div>
       </footer>
     </div>
