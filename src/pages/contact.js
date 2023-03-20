@@ -1,7 +1,10 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
 import Contact from '../components/Contact';
-import Layout from '../components/global/Layout';
 
+const Layout = dynamic(() => import('../components/global/Layout'), {
+  ssr: false,
+});
 const contact = () => {
   return (
     <div>
