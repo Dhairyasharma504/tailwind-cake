@@ -5,7 +5,7 @@ function Subtitle({ TextWhite, subtitle, TextSmall }) {
     <div>
       <h3
         className={` ${TextWhite ? ' text-lightShade ' : ' text-brand'}
-        ${TextSmall ? ' text-3xl' : 'text-4xl'}
+        ${TextSmall ? ' md:text-3xl text-xl' : 'md:text-4xl text-2xl'}
         font-normal  text-brand  font-primary`}
       >
         {subtitle}
