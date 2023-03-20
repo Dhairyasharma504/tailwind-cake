@@ -41,8 +41,8 @@ const reviewHero = [
 ];
 function Price() {
   return (
-    <div className="container px-3 mx-auto ">
-      <div className=" flex justify-center text-center pb-10  py-10 ">
+    <div className="container px-3 mx-auto  pb-11">
+      <div className=" flex justify-center py-10 text-center  mb-10 ">
         <Heading heading="most popular cake " />
       </div>
       {/* <CategoryTabs /> */}

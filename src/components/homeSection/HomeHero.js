@@ -35,8 +35,9 @@ function HomeHero() {
     autoplay: true,
     autoplaySpeed: 3500,
     arrows: false,
-    fade: true,
-    pauseOnHover: false,
+    fade: false,
+    pauseOnHover: true,
+    cssEase: 'linear',
   };
   return (
     <Slider {...settings}>

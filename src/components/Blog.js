@@ -5,8 +5,8 @@ import Heading from './elements/Heading';
 
 function Blog() {
   return (
-    <div className=" container px-3 mx-auto mb-16">
-      <div className="flex justify-between items-center  py-14 ">
+    <div className=" container px-3 mx-auto my-11">
+      <div className="flex justify-between items-center  py-20 ">
         <Heading heading="Food Lover's Say " />
         <PrimaryButton label="more blog" />
       </div>

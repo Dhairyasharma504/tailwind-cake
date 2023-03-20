@@ -12,7 +12,7 @@ AOS.init();
 
 function About() {
   return (
-    <div className=" container mx-auto  mb-11 ">
+    <div className=" container mx-auto  pb-11 ">
       <div
         data-aos="fade-right"
         data-aos-duration="500"
@@ -24,7 +24,7 @@ function About() {
         </div>
         ;
       </div>
-      <div className=" border-b border-brand w-32 mx-auto  pb-6" />
+      <div className=" border-b border-brand w-32 mx-auto  pb-10" />
       <div className="grid  md:grid-cols-2 grid-cols-1  gap-3 py-8">
         <div
           data-aos="fade-right"

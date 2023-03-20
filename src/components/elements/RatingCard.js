@@ -74,7 +74,7 @@ function RatingCard({ subtitle, img, UserName }) {
 
             <footer className="mt-4 flex py-8 items-center">
               <Image src={img} alt=" " height={30} width={30} />
-              <p className=" text-sm pl-6 text-gray-500">{UserName}</p>
+              <p className=" text-sm pl-6 text-gray-400">{UserName}</p>
             </footer>
           </blockquote>
         </div>

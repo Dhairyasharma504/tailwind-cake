@@ -126,7 +126,7 @@ function Products() {
   }, [type, selectedCategory]);
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-11">
       <CategoryTabs
         categories={categories}
         selectedCategory={selectedCategory}
@@ -135,7 +135,7 @@ function Products() {
         type={type}
       />
 
-      <div className="grid md:grid-cols-3 grid-cols-1">
+      <div className="grid md:grid-cols-3 grid-cols-1 py-10">
         {products.map((item) => (
           <PriceCard key={item.id} item={item} />
         ))}
