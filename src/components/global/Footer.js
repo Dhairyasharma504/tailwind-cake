@@ -13,7 +13,7 @@ function Footer() {
       <div className=" border-t  border-gray-500 my-12 max-w-screen-lg mx-auto  mt-24" />
       <footer className="    ">
         <div className="grid md:grid-cols-3 grid-cols-1  ">
-          <div className=" flex-1 px-10 ">
+          <div className=" flex-1  md:px-10 px-4 ">
             <Link href="/">
               <Image
                 className=" mx-auto py-5"
