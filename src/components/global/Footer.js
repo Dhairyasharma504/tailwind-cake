@@ -59,7 +59,7 @@ function Footer() {
             </div>
           </div>
           <div className=" text-center flex-1">
-            <div className="w-1/2 mx-auto">
+            <div className="w-1/2 mx-auto text-center ">
               <BsTelephone className="text-white mx-auto my-4 w-10 h-10 " />
               <div className="py-4">
                 {' '}
