@@ -23,7 +23,7 @@ function RatingCard({ subtitle, img, UserName }) {
   return (
     <div>
       <section>
-        <div className="mx-auto max-w-screen-xl sm:px-6 lg:px-8 py-5">
+        <div className="mx-auto max-w-screen-xl sm:px-6 lg:px-8 p-5">
           <blockquote>
             <header className="sm:flex sm:items-center sm:gap-4 py-8">
               <div className="flex">

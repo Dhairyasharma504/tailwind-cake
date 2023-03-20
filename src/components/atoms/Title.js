@@ -5,7 +5,7 @@ function Title({ TextSmall, title }) {
     <div>
       <h1
         className={`${
-          TextSmall ? 'text-5xl' : ' text-7xl'
+          TextSmall ? 'text-4xl md:text-5xl' : ' text-5xl md:text-7xl'
         } font-normal pb-3 font-primary text-lightShade capitalize`}
       >
         {title}

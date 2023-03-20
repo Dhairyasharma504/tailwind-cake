@@ -1,7 +1,8 @@
 import React from 'react';
 import { TbLocation } from 'react-icons/tb';
 import { BsTelephone } from 'react-icons/bs';
-
+import Image from 'next/image';
+import Link from 'next/link';
 import Description from '../atoms/Description';
 import PrimaryButton from '../atoms/PrimaryButton';
 import Subtitle from '../atoms/Subtitle';
@@ -13,6 +14,15 @@ function Footer() {
       <footer className="    ">
         <div className="grid md:grid-cols-3 grid-cols-1  ">
           <div className=" flex-1 px-10 ">
+            <Link href="/">
+              <Image
+                className=" mx-auto py-5"
+                src="/images/Cake and Bakery Logo 3.png"
+                alt="logo"
+                height={100}
+                width={200}
+              />
+            </Link>
             <Description description="Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 
             <div className="md:flex space-y-10 my-10 md:space-y-0 space-x-2 text-center">
@@ -59,6 +69,9 @@ function Footer() {
               <Description description="dhairyasharma2311@gmail.com" />
             </div>
           </div>
+        </div>{' '}
+        <div className="py-6 flex flex-col justify-center items-center ">
+          <Description description=" 2021 Tailwind UI Kit. All Rights Reserved." />
         </div>
       </footer>
     </div>

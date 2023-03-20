@@ -13,7 +13,7 @@ function Description({
         TextBrand ? ' text-brand' : ' text-lightShade'
       }
 
-      ${TextLarge ? ' text-2xl' : ' text-lg'}
+      ${TextLarge ? ' md:text-2xl text-xl' : ' md:text-lg text-base'}
 
 
       ${TextUpper ? '  uppercase  ' : '  lowercase '}
