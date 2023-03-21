@@ -22,7 +22,7 @@ function Navbar() {
   const [fix, setFix] = useState(false);
 
   function setFixed() {
-    if (window.scrollY >= 340) {
+    if (window.scrollY >= 200) {
       setFix(true);
     } else {
       setFix(false);
